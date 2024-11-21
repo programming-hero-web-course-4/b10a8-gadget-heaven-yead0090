@@ -1,0 +1,152 @@
+[
+    {
+        "product_id": "1",
+        "product_title": "iPhone 15 Pro",
+        "product_image": "https://i.ibb.co.com/XbZgc3F/download.jpg",
+        "category": "Phone",
+        "price": 1200,
+        "description": "A premium smartphone with exceptional camera and performance.",
+        "specification": [
+            "6.7-inch OLED Display",
+            "128GB Storage",
+            "5000mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "2",
+        "product_title": "Samsung Galaxy S23",
+        "product_image":"https://i.ibb.co.com/HGjTZRX/download-1.jpg" ,
+        "category": "Phone",
+        "price": 999,
+        "description": "A cutting-edge smartphone with advanced features.",
+        "specification": [
+            "6.5-inch AMOLED Display",
+            "256GB Storage",
+            "4500mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "3",
+        "product_title": "Google Pixel 8",
+        "product_image": "https://i.ibb.co.com/Jmsr6YQ/download-2.jpg",
+        "category": "Phone",
+        "price": 899,
+        "description": "Google's latest smartphone with AI-enhanced camera technology.",
+        "specification": [
+            "6.3-inch OLED Display",
+            "128GB Storage",
+            "5000mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "4",
+        "product_title": "OnePlus 11",
+        "product_image": "https://i.ibb.co.com/dJNfm8S/download-3.jpg",
+        "category": "Phone",
+        "price": 799,
+        "description": "A high-performance smartphone with fast charging.",
+        "specification": [
+            "6.7-inch AMOLED Display",
+            "256GB Storage",
+            "5000mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "5",
+        "product_title": "Sony Xperia 5 V",
+        "product_image": "https://i.ibb.co.com/2dh3gZ4/download-4.jpg",
+        "category": "Phone",
+        "price": 950,
+        "description": "Compact smartphone with pro-level camera features.",
+        "specification": [
+            "6.1-inch OLED Display",
+            "128GB Storage",
+            "4500mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": "6",
+        "product_title": "Xiaomi 13 Pro",
+        "product_image": "https://i.ibb.co.com/dDRn9Zm/download-5.jpg",
+        "category": "Phone",
+        "price": 899,
+        "description": "Flagship smartphone with an impressive design and fast performance.",
+        "specification": [
+            "6.7-inch AMOLED Display",
+            "256GB Storage",
+            "4820mAh Battery"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": "7",
+        "product_title": "MacBook Air M2",
+        "product_image": "https://i.ibb.co.com/vdxDLC4/download-6.jpg" ,
+        "category": "Laptop",
+        "price": 1200,
+        "description": "Apple's ultra-lightweight laptop with a powerful M2 chip.",
+        "specification": [
+            "13.6-inch Liquid Retina Display",
+            "256GB SSD",
+            "8GB RAM"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": "8",
+        "product_title": "Dell XPS 15",
+        "product_image": "https://i.ibb.co.com/J783x9T/download-7.jpg",
+        "category": "Laptop",
+        "price": 1500,
+        "description": "A powerful laptop for creators and professionals.",
+        "specification": [
+            "15.6-inch 4K Display",
+            "1TB SSD",
+            "16GB RAM"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": "9",
+        "product_title": "Apple Watch Ultra",
+        "product_image": "https://i.ibb.co.com/GHqcrNh/download-8.jpg",
+        "category": "Smartwatch",
+        "price": 799,
+        "description": "Premium smartwatch with advanced health tracking and GPS.",
+        "specification": [
+            "49mm Display",
+            "Titanium Case",
+            "36-hour Battery Life"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": "10",
+        "product_title": "Samsung Galaxy Watch 6",
+        "product_image": "https://i.ibb.co.com/xFDgyxD/download-9.jpg" ,
+        "category": "Smartwatch",
+        "price": 399,
+        "description": "Smartwatch with advanced fitness tracking and long battery life.",
+        "specification": [
+            "40mm Display",
+            "GPS",
+            "Samsung Pay"
+        ],
+        "availability": true,
+        "rating": 4.8
+    }
+]

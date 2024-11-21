@@ -9,7 +9,10 @@ export default {
     extend: {},
   },
   plugins: [
-    ('daisyui'),
+    daisyui,
   ],
+  colors: {
+    'violet': '#7c3aed',
+  },
 }
 
