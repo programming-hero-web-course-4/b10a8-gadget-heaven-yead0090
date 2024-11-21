@@ -1,4 +1,5 @@
 import { NavLink, Outlet, } from "react-router-dom";
+import PageTitle from "../PageTitle";
 
 
 
@@ -7,6 +8,7 @@ const Dashboard = () => {
     
     return (
         <div className=" max-w-7xl mx-auto  ">
+            <PageTitle title='Dashboard'></PageTitle>
             <div className="max-w-7xl mx-auto ">
 
                 

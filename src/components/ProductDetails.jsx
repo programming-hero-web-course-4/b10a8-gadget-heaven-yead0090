@@ -4,7 +4,8 @@ import { useEffect, useState } from "react";
 import ReactStars from 'react-rating-stars-component';
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { CiHeart } from "react-icons/ci";
-import { getCartFromLocalStorage, getWishlistFromLocalStorage, handleAddToCartToLocalStorage, handleAddToWishlistToLocalStorage } from "../utils/utils";
+import {  getWishlistFromLocalStorage, handleAddToCartToLocalStorage, handleAddToWishlistToLocalStorage } from "../utils/utils";
+import PageTitle from "../PageTitle";
 
 
 const ProductDetails = () => {
@@ -40,6 +41,7 @@ const ProductDetails = () => {
     }
     return (
         <div className="max-w-7xl mx-auto relative mb-[700px]">
+            <PageTitle title='Product-Details'></PageTitle>
             {/* heading */}
             <div className="hero bg-violet-600 text-white mb-24 pb-36  ">
             <div className="hero-content text-center">

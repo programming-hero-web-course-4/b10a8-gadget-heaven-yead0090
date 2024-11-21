@@ -1,5 +1,6 @@
 import { NavLink, Outlet, } from "react-router-dom";
 import bannerImg from '../assets/banner.jpg';
+import PageTitle from "../PageTitle";
 
 
 
@@ -10,6 +11,7 @@ const Home = () => {
 
     return (
         <div className="max-w-7xl mx-auto ">
+            <PageTitle title='Home'></PageTitle>
             {/* banner */}
             <div className="relative">
                 <div className="hero bg-violet-600  text-white mb-[500px] pb-32 lg:pb-72  ">
