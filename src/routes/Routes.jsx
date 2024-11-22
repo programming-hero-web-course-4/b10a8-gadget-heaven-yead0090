@@ -15,6 +15,7 @@ import NoDataFound from "../components/NoDataFound";
 import ProductDetails from "../components/ProductDetails";
 import Cart from "../components/Cart";
 import Wishlist from "../components/Wishlist";
+import News from "../pages/News";
 
 const routes = createBrowserRouter([
 
@@ -82,6 +83,11 @@ const routes = createBrowserRouter([
         {
             path:'/statistics',
             element:<Statistics></Statistics>,
+            errorElement:<ErrorPage></ErrorPage>,
+        },
+        {
+            path:'/news',
+            element:<News></News>,
             errorElement:<ErrorPage></ErrorPage>,
         },
         {

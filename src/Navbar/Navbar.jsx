@@ -43,6 +43,10 @@ const Navbar = () => {
                                 color: isActive ? 'white' : '',
                                 fontWeight: isActive ? 'bold' : 'normal',
                             })} to='/dashboard'>Dashboard</NavLink ></li>
+                            <li><NavLink style={({ isActive }) => ({
+                            color: isActive ? 'white' : '',
+                            fontWeight: isActive ? 'bold' : 'normal',
+                        })} to='/news'>News</NavLink ></li>
                         </ul>
                     </div>
                     <Link to='/' className="btn btn-ghost text-xl">Gadget Heaven</Link>
@@ -66,6 +70,10 @@ const Navbar = () => {
                             color: isActive ? 'white' : '',
                             fontWeight: isActive ? 'bold' : 'normal',
                         })} to='/dashboard'>Dashboard</NavLink ></li>
+                        <li><NavLink style={({ isActive }) => ({
+                            color: isActive ? 'white' : '',
+                            fontWeight: isActive ? 'bold' : 'normal',
+                        })} to='/news'>News</NavLink ></li>
                     </ul>
                 </div>
                 <div className="navbar-end ">
