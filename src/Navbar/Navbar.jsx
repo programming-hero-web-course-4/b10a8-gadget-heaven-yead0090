@@ -3,12 +3,12 @@ import { CiHeart } from "react-icons/ci";
 import { Link, NavLink, useLocation } from "react-router-dom";
 
 const Navbar = () => {
-    const location =useLocation() 
-    
+    const location = useLocation()
+
     return (
-        
+
         <div>
-            <div className={`navbar ${location.pathname == '/'?' bg-violet-600 , text-white':'bg-white, text-slate-800'}  font-bold max-w-7xl mx-auto `}>
+            <div className={`navbar ${location.pathname == '/' ? ' bg-violet-600 , text-white' : 'bg-white, text-slate-800'}  font-bold max-w-7xl mx-auto `}>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -28,33 +28,59 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 text-black shadow">
-                            <li><NavLink  to='/'>Home</NavLink ></li>
+                            <li><NavLink style={({ isActive }) => ({
+                                color: isActive ? 'white' : '',
+                                fontWeight: isActive ? 'bold' : 'normal',
+                            })} to='/'>Home</NavLink ></li>
                             <li>
-                                <NavLink  to='/statistics'>Statistics</NavLink >
-                    
+                                <NavLink style={({ isActive }) => ({
+                                    color: isActive ? 'white' : '',
+                                    fontWeight: isActive ? 'bold' : 'normal',
+                                })} to='/statistics'>Statistics</NavLink >
+
                             </li>
-                            <li><NavLink  to='/dashboard'>Dashboard</NavLink ></li>
+                            <li><NavLink style={({ isActive }) => ({
+                                color: isActive ? 'white' : '',
+                                fontWeight: isActive ? 'bold' : 'normal',
+                            })} to='/dashboard'>Dashboard</NavLink ></li>
                         </ul>
                     </div>
                     <Link to='/' className="btn btn-ghost text-xl">Gadget Heaven</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><Link to='/'>Home</Link></li>
+                        <li><NavLink style={({ isActive }) => ({
+                            color: isActive ? 'white' : '',
+                            fontWeight: isActive ? 'bold' : 'normal',
+                        })} to='/'>Home</NavLink ></li>
                         <li>
-                           
-                                <Link to='/statistics'>Statistics</Link>
-                               
-                            
+
+                            <NavLink style={({ isActive }) => ({
+                                color: isActive ? 'white' : '',
+                                fontWeight: isActive ? 'bold' : 'normal',
+                            })} to='/statistics'>Statistics</NavLink >
+
+
                         </li>
-                        <li><Link to='/dashboard'>Dashboard</Link></li>
+                        <li><NavLink style={({ isActive }) => ({
+                            color: isActive ? 'white' : '',
+                            fontWeight: isActive ? 'bold' : 'normal',
+                        })} to='/dashboard'>Dashboard</NavLink ></li>
                     </ul>
                 </div>
                 <div className="navbar-end ">
-                    <NavLink to='/dashboard' className="btn rounded-full ">
+                    <NavLink to='/dashboard' style={({ isActive }) => ({
+                        color: isActive ? 'black' : '',
+                        background:isActive ? '' : 'white',
+                        fontWeight: isActive ? 'bold' : 'normal',
+                    })} className="btn rounded-full ">
                         <MdOutlineShoppingCart size={15}></MdOutlineShoppingCart></NavLink>
-                    <NavLink to='/dashboard/wishlist' className="btn rounded-full ml-4"><CiHeart size={15}></CiHeart></NavLink>
-                    
+                    <NavLink to='/dashboard/wishlist' style={({ isActive }) => ({
+                        color: isActive ? 'black' : '',
+                        background:isActive ? '' : 'white',
+                        fontWeight: isActive ? 'bold' : 'normal',
+                    })} className="btn rounded-full ml-4"><CiHeart size={15}></CiHeart></NavLink>
+
 
                 </div>
             </div>

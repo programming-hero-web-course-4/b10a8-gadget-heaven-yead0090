@@ -20,13 +20,13 @@ const Dashboard = () => {
                                 Explore the latest gadgets that will take your experience to <br /> the next level. From smart devices to the coolest accessories, we have it all!
                             </p>
                             <div className="mt-6 flex gap-4   items-center justify-center">
-                                <NavLink to='/dashboard'><button className="btn rounded-3xl px-14">Cart</button></NavLink>
-                                <NavLink to='/dashboard/wishlist'><button className="btn rounded-3xl px-14">Wishlist</button></NavLink>
+                                <NavLink   to='/dashboard'><button className="btn rounded-3xl px-14">Cart</button></NavLink>
+                                <NavLink   to='/dashboard/wishlist'><button className="btn rounded-3xl px-14 bg-white">Wishlist</button></NavLink>
 
                             </div>
                         </div>
                     </div>
-                   
+
                 </div>
 
             </div>
