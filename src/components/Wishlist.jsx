@@ -42,7 +42,7 @@ const Wishlist = () => {
                 <div className="flex flex-col md:flex-row lg:flex-row  items-center gap-4">
                     <p>Total cost: ${totalCost}</p>
                     <button onClick={handleSort} className="btn rounded-full border border-violet-600 text-violet-600">Sort By Price</button>
-                    <button className="btn rounded-full text-white bg-violet-600">Purchase</button>
+                    
                 </div>
             </div>
 
@@ -51,6 +51,9 @@ const Wishlist = () => {
                     items.map((product) => <CardForDashboard product={product} key={product.product_id} ></CardForDashboard>)
                 }
             </div>
+
+           
+             
         </div>
     );
 };

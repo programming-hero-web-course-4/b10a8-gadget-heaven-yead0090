@@ -10,7 +10,7 @@ import Phones from "../components/Phones";
 import Laptops from "../components/Laptops";
 import Smartwatches from "../components/Smartwatches";
 
-import Accessories from "../components/Accessories";
+
 import NoDataFound from "../components/NoDataFound";
 import ProductDetails from "../components/ProductDetails";
 import Cart from "../components/Cart";

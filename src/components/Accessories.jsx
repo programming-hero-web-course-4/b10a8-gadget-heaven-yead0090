@@ -1,9 +1,10 @@
+import ProductCard from "./productCard";
 
 
-const Accessories = () => {
+const Accessories = ({products}) => {
     return (
         <div>
-            accessories
+            {products.map((p)=><ProductCard key={p.id}></ProductCard>)}
         </div>
     );
 };

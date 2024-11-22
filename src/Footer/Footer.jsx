@@ -7,7 +7,7 @@ const Footer = () => {
                 <p className="text-3xl mb-3">Gadget Heaven</p>
                 <p>Leading the way in cutting-edge technology and innovation.</p>
             </div>
-            {/* <div ></div> */}
+            
             <hr className="w-2/3 border border-t-base-200 "/>
             <footer className="footer flex justify-around  text-black mx-auto p-10">
 

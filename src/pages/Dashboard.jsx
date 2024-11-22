@@ -5,13 +5,13 @@ import PageTitle from "../PageTitle";
 
 
 const Dashboard = () => {
-    
+
     return (
         <div className=" max-w-7xl mx-auto  ">
             <PageTitle title='Dashboard'></PageTitle>
             <div className="max-w-7xl mx-auto ">
 
-                
+
                 <div className="hero bg-violet-600 text-white mb-24 pb-36  ">
                     <div className="hero-content text-center">
                         <div className=" ">
@@ -26,6 +26,7 @@ const Dashboard = () => {
                             </div>
                         </div>
                     </div>
+                   
                 </div>
 
             </div>
